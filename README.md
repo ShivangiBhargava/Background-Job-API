@@ -20,5 +20,14 @@ You need **two terminals** running at the same time.
 ```bash
 npm install
 node index.js
+
+**Terminal 2 — the Inngest Dev Server**
+```bash
+npx inngest-cli@latest dev -u http://localhost:3000/api/inngest
+```
+
+Open the dashboard: **http://localhost:8288**
+
+---
 ```
 
